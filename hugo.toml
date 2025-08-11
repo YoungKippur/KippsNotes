@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Kipp´s Notes'
+theme = 'hugo-theme-stack'
