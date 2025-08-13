@@ -6,7 +6,34 @@
         <description>Recent content on Kipp´s Notes</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sucesiones - Análisis Matemático II</title>
+        <link>http://localhost:1313/post/sucesiones/</link>
+        <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/sucesiones/</guid>
+        <description>
+&lt;h4 id=&#34;definicion-sucesiones&#34;&gt;Definicion (Sucesiones)
+&lt;/h4&gt;&lt;p&gt;Una sucesion de elementos en $\Alpha$ es una funcion $F \negthinspace : \N\to\R\quad (\Alpha\in\R)$.&lt;/p&gt;
+&lt;p&gt;$\Set{a_n}_{n\in\N}\medspace$ siendo $\medspace a_n = F(n)$&lt;/p&gt;
+&lt;p&gt;$\colorbox{grey}{
+($F$ no es una funcion continua)
+}$&lt;/p&gt;
+&lt;h4 id=&#34;definicion-limite-de-una-sucesion&#34;&gt;Definicion (Limite de una sucesion)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;$\lim\limits_{n\to \scriptsize + \infin} = L \quad si \quad
+\colorbox{grey}{
+$\forall\epsilon &amp;gt; 0 \quad \exist\thinspace n_0 \thinspace / \thinspace |a_n - L|&amp;lt;\epsilon\quad si\quad n \ge n_0$
+}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;En este caso diremos que $\Set{a_n}_{n\in\N}$ &lt;code&gt;converge&lt;/code&gt; a $L.\thinspace$ En cualquier otro caso, diremos que &lt;code&gt;diverge&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;$\lim\limits_{n\to \scriptsize + \infin} = +\infin \quad si $&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Math Typesetting</title>
         <link>http://localhost:1313/post/first-post/</link>
         <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
