@@ -23,15 +23,36 @@
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;$\lim\limits_{n\to \scriptsize + \infin} = L \quad si \quad
 \colorbox{grey}{
-$\forall\epsilon &amp;gt; 0 \quad \exist\thinspace n_0 \thinspace / \thinspace |a_n - L|&amp;lt;\epsilon\quad si\quad n \ge n_0$
+$\forall\varepsilon &amp;gt; 0 \quad \exist\thinspace n_0\in\N \thinspace / \thinspace |a_n - L|&amp;lt;\varepsilon\quad si\quad n \ge n_0$
 }$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;En este caso diremos que $\Set{a_n}_{n\in\N}$ &lt;code&gt;converge&lt;/code&gt; a $L.\thinspace$ En cualquier otro caso, diremos que &lt;code&gt;diverge&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;$\lim\limits_{n\to \scriptsize + \infin} = +\infin \quad si $&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lim\limits_{n\to \scriptsize + \infin}a_n = +\infin \quad si \quad
+\colorbox{grey}{
+$\forall n&amp;gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &amp;gt; n\quad si\quad n\ge n_0$
+}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lim\limits_{n\to \scriptsize + \infin}a_n = -\infin \quad si \quad
+\colorbox{grey}{
+$\forall n&amp;gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &amp;lt; -n\quad si\quad n\ge n_0$
+}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lim\limits_{n\to \scriptsize + \infin}a_n = \infin \quad si\quad\lim\limits_{n\to \scriptsize + \infin}|a_n| = +\infin$&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+&lt;h4 id=&#34;definicion-monotonia&#34;&gt;Definicion (Monotonia)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion, diremos que es &lt;code&gt;creciente&lt;/code&gt; si $\medspace a_n\le a_{n+1}$.&lt;/li&gt;
+&lt;li&gt;Si $\medspace a_n\ge a_{n+1}$, diremos que es &lt;code&gt;decreciente&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;En cuqlquiera de los dos casos diremos que es &lt;code&gt;monotona&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;definicion-sucesion-acotada&#34;&gt;Definicion (Sucesion acotada)
+&lt;/h4&gt;</description>
         </item>
         
     </channel>

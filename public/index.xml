@@ -21,17 +21,92 @@
 }$&lt;/p&gt;
 &lt;h4 id=&#34;definicion-limite-de-una-sucesion&#34;&gt;Definicion (Limite de una sucesion)
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;$\lim\limits_{n\to \scriptsize + \infin} = L \quad si \quad
+&lt;li&gt;$\lim\limits_{n\medspace\to \scriptsize + \infin} = L \quad si \quad
 \colorbox{grey}{
-$\forall\epsilon &amp;gt; 0 \quad \exist\thinspace n_0 \thinspace / \thinspace |a_n - L|&amp;lt;\epsilon\quad si\quad n \ge n_0$
+$\forall\varepsilon &amp;gt; 0 \quad \exist\thinspace n_0\in\N \thinspace / \thinspace |a_n - L|&amp;lt;\varepsilon\quad si\quad n \ge n_0$
 }$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;En este caso diremos que $\Set{a_n}_{n\in\N}$ &lt;code&gt;converge&lt;/code&gt; a $L.\thinspace$ En cualquier otro caso, diremos que &lt;code&gt;diverge&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;$\lim\limits_{n\to \scriptsize + \infin} = +\infin \quad si $&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = +\infin \quad si \quad
+\colorbox{grey}{
+$\forall\thinspace n&amp;gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &amp;gt; n\quad si\quad n\ge n_0$
+}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = -\infin \quad si \quad
+\colorbox{grey}{
+$\forall\thinspace n&amp;gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &amp;lt; -n\quad si\quad n\ge n_0$
+}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = \infin \quad si\quad\lim\limits_{n\medspace\to \scriptsize + \infin}|a_n| = +\infin$&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+&lt;h4 id=&#34;definicion-monotonia&#34;&gt;Definicion (Monotonia)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion, diremos que es &lt;code&gt;creciente&lt;/code&gt; si $\medspace a_n\le a_{n+1}$.&lt;/li&gt;
+&lt;li&gt;Si $\medspace a_n\ge a_{n+1}$, diremos que es &lt;code&gt;decreciente&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;En cualquiera de los dos casos diremos que es &lt;code&gt;monotona&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;definicion-sucesion-acotada&#34;&gt;Definicion (Sucesion acotada)
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion, diremos que esta &lt;code&gt;acotada inferiormente&lt;/code&gt; si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace k&amp;lt;a_n\quad,\thinspace \forall\thinspace n\in\N$
+}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Diremos que esta &lt;code&gt;acotada superiormente&lt;/code&gt; si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace a_n&amp;lt;k\quad,\thinspace \forall\thinspace n\in\N$
+}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Diremos que esta &lt;code&gt;acotada&lt;/code&gt; si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace |a_n|&amp;lt;k\quad,\thinspace \forall\thinspace n\in\N$
+}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;teorema&#34;&gt;Teorema
+&lt;/h4&gt;&lt;p&gt;Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion &lt;code&gt;convergente&lt;/code&gt; $\Longrightarrow$ es &lt;code&gt;acotada&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;teorema-1&#34;&gt;Teorema
+&lt;/h4&gt;&lt;p&gt;Si $\Set{a_n}_{n\in\N}\medspace$ es &lt;code&gt;monotona&lt;/code&gt; y &lt;code&gt;acotada&lt;/code&gt; $\Longrightarrow$ la sucesion $\thinspace\textcolor{lightgreen}{converge}$.&lt;/p&gt;
+&lt;h4 id=&#34;observaciones&#34;&gt;Observaciones
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;$\thinspace$ Sea $\thinspace F\negthinspace :I\sub\R\to\R\thinspace/\lim\limits_{x\medspace\to \scriptsize + \infin}F(x)=L\quad\land\quad a_n=F(n)\quad n\in\N\quad\Longrightarrow\quad\thinspace\colorbox{grey}{
+$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n=L$
+}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A esto se lo llama $\thinspace\textcolor{lightblue}{paso\medspace a\medspace variable\medspace real}$.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;$\thinspace$ Sea $\Set{a_n}_{n\in\N}\medspace$ &lt;code&gt;acotada&lt;/code&gt; $\thinspace\land$ $\Set{b_n}_{n\in\N}\medspace/\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0\quad\Longrightarrow\quad\thinspace\colorbox{grey}{
+$a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$
+}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A esto se lo llama $\thinspace\textcolor{lightblue}{cero\medspace por\medspace acotada}$.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;$\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\quad\Longrightarrow\quad |a_n|\xrightarrow[n\medspace\to\scriptsize +\infin]{}|a|$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0\quad\xLeftrightarrow \quad\quad |a_n|\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\thinspace$ Sean $\Set{a_n}_{n\in\N}\medspace\land\medspace\Set{b_n}_{n\in\N}\thinspace/\thinspace a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\medspace\land\medspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}b\medspace\medspace\land\medspace\alpha,\thinspace\beta\in\R$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\alpha\thinspace .\thinspace a_n + \beta\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}\alpha\thinspace .\thinspace a+\beta\thinspace .\thinspace b$&lt;/li&gt;
+&lt;li&gt;$a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\thinspace .\thinspace b$&lt;/li&gt;
+&lt;li&gt;Si $b\ne 0\thinspace,\quad\frac{a_n}{b_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}\frac{a}{b}$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;criterios-de-convergencia&#34;&gt;Criterios de convergencia
+&lt;/h3&gt;&lt;h4 id=&#34;teorema-2&#34;&gt;Teorema
+&lt;/h4&gt;</description>
         </item>
         <item>
         <title>Math Typesetting</title>

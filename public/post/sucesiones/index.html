@@ -250,7 +250,7 @@
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    2 minute read
                 </time>
             </div>
         
@@ -274,7 +274,7 @@
 }$</p>
 <h4 id="definicion-limite-de-una-sucesion">Definicion (Limite de una sucesion)
 </h4><ul>
-<li>$\lim\limits_{n\to \scriptsize + \infin} = L \quad si \quad
+<li>$\lim\limits_{n\medspace\to \scriptsize + \infin} = L \quad si \quad
 \colorbox{grey}{
 $\forall\varepsilon &gt; 0 \quad \exist\thinspace n_0\in\N \thinspace / \thinspace |a_n - L|&lt;\varepsilon\quad si\quad n \ge n_0$
 }$</li>
@@ -283,22 +283,83 @@ $\forall\varepsilon &gt; 0 \quad \exist\thinspace n_0\in\N \thinspace / \thinspa
 <p>En este caso diremos que $\Set{a_n}_{n\in\N}$ <code>converge</code> a $L.\thinspace$ En cualquier otro caso, diremos que <code>diverge</code>.</p></blockquote>
 <ul>
 <li>
-<p>$\lim\limits_{n\to \scriptsize + \infin}a_n = +\infin \quad si \quad
+<p>$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = +\infin \quad si \quad
 \colorbox{grey}{
-$\forall n&gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &gt; n\quad si\quad n\ge n_0$
+$\forall\thinspace n&gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &gt; n\quad si\quad n\ge n_0$
 }$</p>
 </li>
 <li>
-<p>$\lim\limits_{n\to \scriptsize + \infin}a_n = -\infin \quad si \quad
+<p>$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = -\infin \quad si \quad
 \colorbox{grey}{
-$\forall n&gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &lt; -n\quad si\quad n\ge n_0$
+$\forall\thinspace n&gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &lt; -n\quad si\quad n\ge n_0$
 }$</p>
 </li>
 <li>
-<p>$\lim\limits_{n\to \scriptsize + \infin}a_n = \infin \quad si\quad\lim\limits_{n\to \scriptsize + \infin}|a_n| = +\infin$</p>
+<p>$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = \infin \quad si\quad\lim\limits_{n\medspace\to \scriptsize + \infin}|a_n| = +\infin$</p>
 </li>
 </ul>
-
+<h4 id="definicion-monotonia">Definicion (Monotonia)
+</h4><ul>
+<li>Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion, diremos que es <code>creciente</code> si $\medspace a_n\le a_{n+1}$.</li>
+<li>Si $\medspace a_n\ge a_{n+1}$, diremos que es <code>decreciente</code>.</li>
+<li>En cualquiera de los dos casos diremos que es <code>monotona</code>.</li>
+</ul>
+<h4 id="definicion-sucesion-acotada">Definicion (Sucesion acotada)
+</h4><ul>
+<li>
+<p>Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion, diremos que esta <code>acotada inferiormente</code> si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace k&lt;a_n\quad,\thinspace \forall\thinspace n\in\N$
+}$</p>
+</li>
+<li>
+<p>Diremos que esta <code>acotada superiormente</code> si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace a_n&lt;k\quad,\thinspace \forall\thinspace n\in\N$
+}$</p>
+</li>
+<li>
+<p>Diremos que esta <code>acotada</code> si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace |a_n|&lt;k\quad,\thinspace \forall\thinspace n\in\N$
+}$</p>
+</li>
+</ul>
+<h4 id="teorema">Teorema
+</h4><p>Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion <code>convergente</code> $\Longrightarrow$ es <code>acotada</code>.</p>
+<h4 id="teorema-1">Teorema
+</h4><p>Si $\Set{a_n}_{n\in\N}\medspace$ es <code>monotona</code> y <code>acotada</code> $\Longrightarrow$ la sucesion $\thinspace\textcolor{lightgreen}{converge}$.</p>
+<h4 id="observaciones">Observaciones
+</h4><ol>
+<li>$\thinspace$ Sea $\thinspace F\negthinspace :I\sub\R\to\R\thinspace/\lim\limits_{x\medspace\to \scriptsize + \infin}F(x)=L\quad\land\quad a_n=F(n)\quad n\in\N\quad\Longrightarrow\quad\thinspace\colorbox{grey}{
+$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n=L$
+}$</li>
+</ol>
+<blockquote>
+<p>A esto se lo llama $\thinspace\textcolor{lightblue}{paso\medspace a\medspace variable\medspace real}$.</p></blockquote>
+<ol start="2">
+<li>$\thinspace$ Sea $\Set{a_n}_{n\in\N}\medspace$ <code>acotada</code> $\thinspace\land$ $\Set{b_n}_{n\in\N}\medspace/\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0\quad\Longrightarrow\quad\thinspace\colorbox{grey}{
+$a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$
+}$</li>
+</ol>
+<blockquote>
+<p>A esto se lo llama $\thinspace\textcolor{lightblue}{cero\medspace por\medspace acotada}$.</p></blockquote>
+<ol start="3">
+<li>
+<p>$\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\quad\Longrightarrow\quad |a_n|\xrightarrow[n\medspace\to\scriptsize +\infin]{}|a|$</p>
+</li>
+<li>
+<p>$\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0\quad\xLeftrightarrow \quad\quad |a_n|\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$</p>
+</li>
+<li>
+<p>$\thinspace$ Sean $\Set{a_n}_{n\in\N}\medspace\land\medspace\Set{b_n}_{n\in\N}\thinspace/\thinspace a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\medspace\land\medspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}b\medspace\medspace\land\medspace\alpha,\thinspace\beta\in\R$</p>
+<ul>
+<li>$\alpha\thinspace .\thinspace a_n + \beta\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}\alpha\thinspace .\thinspace a+\beta\thinspace .\thinspace b$</li>
+<li>$a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\thinspace .\thinspace b$</li>
+<li>Si $b\ne 0\thinspace,\quad\frac{a_n}{b_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}\frac{a}{b}$</li>
+</ul>
+</li>
+</ol>
+<h3 id="criterios-de-convergencia">Criterios de convergencia
+</h3><h4 id="teorema-2">Teorema
+</h4>
 </section>
 
 
