@@ -24,6 +24,7 @@
     </div>
 
     {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+    {{ $showAuthor := .Params.author | default (.Site.Params.article.author) }}
     {{ $showDate := not .Date.IsZero }}
     {{ $showFooter := or $showDate $showReadingTime }}
     {{ if $showFooter }}
@@ -34,6 +35,13 @@
                 <time class="article-time--published">
                     {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
                 </time>
+            </div>
+        {{ end }}
+        
+        {{ if $showAuthor }}
+            <div>
+                {{ partial "helper/icon" "user" }}
+                {{ .Params.author}}
             </div>
         {{ end }}
 

@@ -1,5 +1,4 @@
 +++
-author = "Marcos Strauss"
 title = "Math Typesetting"
 date = "2025-08-11"
 description = "A brief guide to setup KaTeX"
