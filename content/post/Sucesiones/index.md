@@ -89,7 +89,47 @@ Si $\Set{a_n}_{n\in\N}\medspace$ es `monotona` y `acotada` $\Longrightarrow$ la 
     * $\alpha\thinspace .\thinspace a_n + \beta\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}\alpha\thinspace .\thinspace a+\beta\thinspace .\thinspace b$
     * $a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\thinspace .\thinspace b$
     * Si $b\ne 0\thinspace,\quad\frac{a_n}{b_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}\frac{a}{b}$
+> $\textcolor{lightblue}{Linealidad}$.
 
 ### Criterios de convergencia
 
 #### Teorema
+Si $\quad a_n\le b_n\quad\forall\thinspace n\ge n_0\quad (n_0\in\N)\quad\land\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$
+
+$\Longrightarrow b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$
+
+#### Teorema (Sandwich)
+Sean $\Set{a_n}_{n\in\N}\medspace$, $\medspace\Set{b_n}\_{n\in\N}\medspace$ y $\medspace\Set{c_n}\_{n\in\N}\thinspace/\medspace b_n\le a_n\le c_n\quad\forall\thinspace n\ge n_0\quad (n_0\in\N)$
+
+Si $\quad b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L\medspace$ y $\medspace c_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+
+$\Longrightarrow \colorbox{grey}{
+    $a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+    }$
+
+#### Teorema (Criterio de Cauchy)
+Si $\Set{a_n}_{n\in\N}\medspace/\medspace a_n>0\quad\land\quad\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+* Si $\medspace L<1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$
+* Si $\medspace L>1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$
+* Si $\medspace L=1\thinspace$ el criterio no informa.
+
+#### Teorema (Criterio de D'Alembert)
+Si $\Set{a_n}_{n\in\N}\medspace/\medspace a_n>0\quad\land\quad\frac{a\_{n+1}}{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+* Si $\medspace L<1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$
+* Si $\medspace L>1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$
+* Si $\medspace L=1\thinspace$ el criterio no informa.
+
+#### Teorema (Criterio vinculante)
+Si $\medspace a_n>0\quad\land\quad\frac{a\_{n+1}}{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+
+$\Longrightarrow \colorbox{grey}{
+    $\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+    }
+\quad(L\in\R\quad o\quad L=+\infin)$
+
+### Subsucesiones
+
+#### Definiciones
+Sea $\Set{a_n}_{n\in\N}\medspace/\medspace F:\N\to\R\thinspace,\quad F(n)=a_n\quad\land\quad$ Sea $\medspace G:\N\to\N\medspace$ `estrictamente creciente`
+
+$\Longrightarrow$

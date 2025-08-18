@@ -104,9 +104,43 @@ $a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\textcolor{lightblue}{Linealidad}$.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;criterios-de-convergencia&#34;&gt;Criterios de convergencia
 &lt;/h3&gt;&lt;h4 id=&#34;teorema-2&#34;&gt;Teorema
-&lt;/h4&gt;</description>
+&lt;/h4&gt;&lt;p&gt;Si $\quad a_n\le b_n\quad\forall\thinspace n\ge n_0\quad (n_0\in\N)\quad\land\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$&lt;/p&gt;
+&lt;p&gt;$\Longrightarrow b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$&lt;/p&gt;
+&lt;h4 id=&#34;teorema-sandwich&#34;&gt;Teorema (Sandwich)
+&lt;/h4&gt;&lt;p&gt;Sean $\Set{a_n}_{n\in\N}\medspace$, $\medspace\Set{b_n}_{n\in\N}\medspace$ y $\medspace\Set{c_n}_{n\in\N}\thinspace/\medspace b_n\le a_n\le c_n\quad\forall\thinspace n\ge n_0\quad (n_0\in\N)$&lt;/p&gt;
+&lt;p&gt;Si $\quad b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L\medspace$ y $\medspace c_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$&lt;/p&gt;
+&lt;p&gt;$\Longrightarrow \colorbox{grey}{
+$a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+}$&lt;/p&gt;
+&lt;h4 id=&#34;teorema-criterio-de-cauchy&#34;&gt;Teorema (Criterio de Cauchy)
+&lt;/h4&gt;&lt;p&gt;Si $\Set{a_n}_{n\in\N}\medspace/\medspace a_n&amp;gt;0\quad\land\quad\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si $\medspace L&amp;lt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$&lt;/li&gt;
+&lt;li&gt;Si $\medspace L&amp;gt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$&lt;/li&gt;
+&lt;li&gt;Si $\medspace L=1\thinspace$ el criterio no informa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;teorema-criterio-de-dalembert&#34;&gt;Teorema (Criterio de D&amp;rsquo;Alembert)
+&lt;/h4&gt;&lt;p&gt;Si $\Set{a_n}_{n\in\N}\medspace/\medspace a_n&amp;gt;0\quad\land\quad\frac{a_{n+1}}{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si $\medspace L&amp;lt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$&lt;/li&gt;
+&lt;li&gt;Si $\medspace L&amp;gt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$&lt;/li&gt;
+&lt;li&gt;Si $\medspace L=1\thinspace$ el criterio no informa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;teorema-criterio-vinculante&#34;&gt;Teorema (Criterio vinculante)
+&lt;/h4&gt;&lt;p&gt;Si $\medspace a_n&amp;gt;0\quad\land\quad\frac{a_{n+1}}{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$&lt;/p&gt;
+&lt;p&gt;$\Longrightarrow \colorbox{grey}{
+$\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+}
+\quad(L\in\R\quad o\quad L=+\infin)$&lt;/p&gt;
+&lt;h3 id=&#34;subsucesiones&#34;&gt;Subsucesiones
+&lt;/h3&gt;&lt;h4 id=&#34;definiciones&#34;&gt;Definiciones
+&lt;/h4&gt;&lt;p&gt;Sea $\Set{a_n}_{n\in\N}\medspace/\medspace F:\N\to\R\thinspace,\quad F(n)=a_n\quad\land\quad$ Sea $\medspace G:\N\to\N\medspace$ &lt;code&gt;estrictamente creciente&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;$\Longrightarrow$&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Math Typesetting</title>
