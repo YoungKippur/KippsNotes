@@ -28,7 +28,7 @@ $\colorbox{grey}{
     }$
 
 #### Definicion (Limite de una sucesion)
-* $\lim\limits_{n\medspace\to \scriptsize + \infin} = L \quad si \quad
+* $\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = L \quad si \quad
 \colorbox{grey}{
     $\forall\varepsilon > 0 \quad \exist\thinspace n_0\in\N \thinspace / \thinspace |a_n - L|<\varepsilon\quad si\quad n \ge n_0$
     }$ 

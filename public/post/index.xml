@@ -6,7 +6,60 @@
         <description>Recent content in Posts on Kipp´s Notes</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 13 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Series de potencias - Análisis Matemático II</title>
+        <link>http://localhost:1313/post/seriesdepotencias/</link>
+        <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/seriesdepotencias/</guid>
+        <description>
+&lt;h3 id=&#34;series-funcionales-series-de-potencias&#34;&gt;Series funcionales: Series de potencias
+&lt;/h3&gt;&lt;h4 id=&#34;definicion&#34;&gt;Definicion
+&lt;/h4&gt;&lt;p&gt;Una &lt;code&gt;serie funcional de potencias&lt;/code&gt; es la que puede escribirse de la forma:&lt;/p&gt;
+&lt;p&gt;$\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n$&lt;/p&gt;
+&lt;p&gt;Siendo $\Set{a_n}_{n\in\N}\medspace$ una &lt;code&gt;sucesion de numeros reales&lt;/code&gt; y $\thinspace x_0\in\R\thinspace$.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Observamos que en $x=x_0\medspace$ $\textcolor{lightgreen}{converge\medspace siempre}$..&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;teorema&#34;&gt;Teorema
+&lt;/h4&gt;&lt;p&gt;Sea $\medspace\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n\quad\land\quad R=sup\thinspace\set{r\in\R\ge 0: la\medspace serie\medspace converge\medspace\forall x\in\R\medspace /|x-x_0|&amp;lt;r}$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$R$ puede ser infinito y se llama &lt;code&gt;radio de convergencia&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&amp;lt;R\Longrightarrow\medspace$ la serie &lt;code&gt;converge absolutamente&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&amp;gt;R\Longrightarrow\medspace$ la serie &lt;code&gt;diverge&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|=R\Longrightarrow\medspace$ no sabemos que pasa con la serie.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Si solo &lt;code&gt;converge absolutamente&lt;/code&gt; en $\medspace x=x_0\iff R=0$&lt;/li&gt;
+&lt;li&gt;Si  &lt;code&gt;converge absolutamente&lt;/code&gt; $\medspace\forall x\in\R\iff R=+\infin$&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Si la serie &lt;code&gt;converge absolutamente&lt;/code&gt; $\Longrightarrow$ la serie &lt;code&gt;converge&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Si la serie &lt;code&gt;diverge&lt;/code&gt; $\Longrightarrow$ la serie &lt;code&gt;no converge absolutamente&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;teorema-calculo-del-radio&#34;&gt;Teorema (Calculo del radio)
+&lt;/h3&gt;&lt;p&gt;Sea $\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n$, el &lt;code&gt;radio&lt;/code&gt; se puede calcular como:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$R = \begin{cases}
+0 &amp;amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\frac{|a_{n+1}|}{|a_n|} = \infin \\
+\infin &amp;amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\frac{|a_{n+1}|}{|a_n|} = 0 \\
+\frac{1}{L} &amp;amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\frac{|a_{n+1}|}{|a_n|} = L
+\end{cases}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$R = \begin{cases}
+0 &amp;amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\sqrt[n]{|a_n|} = \infin \\
+\infin &amp;amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\sqrt[n]{|a_n|} = 0 \\
+\frac{1}{L} &amp;amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\sqrt[n]{|a_n|} = L
+\end{cases}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Sucesiones - Análisis Matemático II</title>
         <link>http://localhost:1313/post/sucesiones/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
@@ -21,7 +74,7 @@
 }$&lt;/p&gt;
 &lt;h4 id=&#34;definicion-limite-de-una-sucesion&#34;&gt;Definicion (Limite de una sucesion)
 &lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;$\lim\limits_{n\medspace\to \scriptsize + \infin} = L \quad si \quad
+&lt;li&gt;$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = L \quad si \quad
 \colorbox{grey}{
 $\forall\varepsilon &amp;gt; 0 \quad \exist\thinspace n_0\in\N \thinspace / \thinspace |a_n - L|&amp;lt;\varepsilon\quad si\quad n \ge n_0$
 }$&lt;/li&gt;
