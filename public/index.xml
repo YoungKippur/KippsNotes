@@ -6,12 +6,21 @@
         <description>Recent content on Kipp´s Notes</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Series de potencias - Análisis Matemático II</title>
-        <link>http://localhost:1313/post/seriesdepotencias/</link>
+        <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>EDA - Contenido</title>
+        <link>http://localhost:1313/post/eda/</link>
+        <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/eda/</guid>
+        <description>
+</description>
+        </item>
+        <item>
+        <title>Análisis Matemático II - Series de potencias</title>
+        <link>http://localhost:1313/post/am2_seriesdepotencias/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/seriesdepotencias/</guid>
+        <guid>http://localhost:1313/post/am2_seriesdepotencias/</guid>
         <description>
 &lt;h3 id=&#34;series-funcionales-series-de-potencias&#34;&gt;Series funcionales: Series de potencias
 &lt;/h3&gt;&lt;h4 id=&#34;definicion&#34;&gt;Definicion
@@ -23,7 +32,7 @@
 &lt;h4 id=&#34;teorema&#34;&gt;Teorema
 &lt;/h4&gt;&lt;p&gt;Sea $\medspace\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n\quad\land\quad R=sup\thinspace\set{r\in\R\ge 0: la\medspace serie\medspace converge\medspace\forall x\in\R\medspace /|x-x_0|&amp;lt;r}$&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;$R$ puede ser infinito y se llama &lt;code&gt;radio de convergencia&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;$R\thinspace$ puede ser infinito y se llama &lt;code&gt;radio de convergencia&lt;/code&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&amp;lt;R\Longrightarrow\medspace$ la serie &lt;code&gt;converge absolutamente&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&amp;gt;R\Longrightarrow\medspace$ la serie &lt;code&gt;diverge&lt;/code&gt;.&lt;/li&gt;
@@ -60,11 +69,11 @@
 </description>
         </item>
         <item>
-        <title>Sucesiones - Análisis Matemático II</title>
-        <link>http://localhost:1313/post/sucesiones/</link>
+        <title>Análisis Matemático II - Sucesiones</title>
+        <link>http://localhost:1313/post/am2_sucesiones/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/sucesiones/</guid>
+        <guid>http://localhost:1313/post/am2_sucesiones/</guid>
         <description>
 &lt;h4 id=&#34;definicion-sucesiones&#34;&gt;Definicion (Sucesiones)
 &lt;/h4&gt;&lt;p&gt;Una sucesion de elementos en $\Alpha$ es una funcion $F \negthinspace : \N\to\R\quad (\Alpha\in\R)$.&lt;/p&gt;
@@ -225,7 +234,23 @@ $\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
 &lt;p&gt;Block math:
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$&lt;/p&gt;</description>
+$$&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;../../media/eda01.MP4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;../../media/eda01.MP4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;hola como estas&lt;/p&gt;&lt;/blockquote&gt;</description>
         </item>
         <item>
         <title>About</title>

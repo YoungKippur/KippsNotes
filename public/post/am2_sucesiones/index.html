@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Notas de series de potencias">
-<title>Esto es una prueba</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Notas de sucesiones">
+<title>Análisis Matemático II - Sucesiones</title>
 
-<link rel='canonical' href='http://localhost:1313/post/test/'>
+<link rel='canonical' href='http://localhost:1313/post/am2_sucesiones/'>
 
-<link rel="stylesheet" href="/scss/style.min.cfa5b1b0e78d61c00a14173992a1f3fa3b5c1b9fa34d023de959af564e7b19dd.css"><meta property='og:title' content="Esto es una prueba">
-<meta property='og:description' content="Notas de series de potencias">
-<meta property='og:url' content='http://localhost:1313/post/test/'>
+<link rel="stylesheet" href="/scss/style.min.cfa5b1b0e78d61c00a14173992a1f3fa3b5c1b9fa34d023de959af564e7b19dd.css"><meta property='og:title' content="Análisis Matemático II - Sucesiones">
+<meta property='og:description' content="Notas de sucesiones">
+<meta property='og:url' content='http://localhost:1313/post/am2_sucesiones/'>
 <meta property='og:site_name' content='Kipp´s Notes'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Análisis Matemático II' /><meta property='article:published_time' content='2025-08-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-19T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="Esto es una prueba">
-<meta name="twitter:description" content="Notas de series de potencias">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Análisis Matemático II' /><meta property='article:published_time' content='2025-08-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-13T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Análisis Matemático II - Sucesiones">
+<meta name="twitter:description" content="Notas de sucesiones">
     </head>
     <body class="
     article-page
@@ -211,12 +211,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/test/">Esto es una prueba</a>
+            <a href="/post/am2_sucesiones/">Análisis Matemático II - Sucesiones</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            Notas de series de potencias
+            Notas de sucesiones
         </h3>
         
     </div>
@@ -238,7 +238,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 19, 2025</time>
+                <time class="article-time--published">Aug 13, 2025</time>
             </div>
         
         
@@ -252,7 +252,7 @@
 
 
 
-                Lucas
+                Marcos Strauss
             </div>
         
 
@@ -267,7 +267,7 @@
 
 
                 <time class="article-time--reading">
-                    1 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -283,7 +283,133 @@
     
     
     
-<p>Hola como andas??</p>
+<h4 id="definicion-sucesiones">Definicion (Sucesiones)
+</h4><p>Una sucesion de elementos en $\Alpha$ es una funcion $F \negthinspace : \N\to\R\quad (\Alpha\in\R)$.</p>
+<p>$\Set{a_n}_{n\in\N}\medspace$ siendo $\medspace a_n = F(n)$</p>
+<p>$\colorbox{grey}{
+($F$ no es una funcion continua)
+}$</p>
+<h4 id="definicion-limite-de-una-sucesion">Definicion (Limite de una sucesion)
+</h4><ul>
+<li>$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = L \quad si \quad
+\colorbox{grey}{
+$\forall\varepsilon &gt; 0 \quad \exist\thinspace n_0\in\N \thinspace / \thinspace |a_n - L|&lt;\varepsilon\quad si\quad n \ge n_0$
+}$</li>
+</ul>
+<blockquote>
+<p>En este caso diremos que $\Set{a_n}_{n\in\N}$ <code>converge</code> a $L.\thinspace$ En cualquier otro caso, diremos que <code>diverge</code>.</p></blockquote>
+<ul>
+<li>
+<p>$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = +\infin \quad si \quad
+\colorbox{grey}{
+$\forall\thinspace n&gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &gt; n\quad si\quad n\ge n_0$
+}$</p>
+</li>
+<li>
+<p>$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = -\infin \quad si \quad
+\colorbox{grey}{
+$\forall\thinspace n&gt;0\quad\exist\thinspace n_0\in\N\thinspace/\thinspace a_n &lt; -n\quad si\quad n\ge n_0$
+}$</p>
+</li>
+<li>
+<p>$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n = \infin \quad si\quad\lim\limits_{n\medspace\to \scriptsize + \infin}|a_n| = +\infin$</p>
+</li>
+</ul>
+<h4 id="definicion-monotonia">Definicion (Monotonia)
+</h4><ul>
+<li>Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion, diremos que es <code>creciente</code> si $\medspace a_n\le a_{n+1}$.</li>
+<li>Si $\medspace a_n\ge a_{n+1}$, diremos que es <code>decreciente</code>.</li>
+<li>En cualquiera de los dos casos diremos que es <code>monotona</code>.</li>
+</ul>
+<h4 id="definicion-sucesion-acotada">Definicion (Sucesion acotada)
+</h4><ul>
+<li>
+<p>Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion, diremos que esta <code>acotada inferiormente</code> si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace k&lt;a_n\quad,\thinspace \forall\thinspace n\in\N$
+}$</p>
+</li>
+<li>
+<p>Diremos que esta <code>acotada superiormente</code> si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace a_n&lt;k\quad,\thinspace \forall\thinspace n\in\N$
+}$</p>
+</li>
+<li>
+<p>Diremos que esta <code>acotada</code> si $\thinspace\colorbox{grey}{
+$\exist\thinspace k\in\R\thinspace/\thinspace |a_n|&lt;k\quad,\thinspace \forall\thinspace n\in\N$
+}$</p>
+</li>
+</ul>
+<h4 id="teorema">Teorema
+</h4><p>Sea $\Set{a_n}_{n\in\N}\medspace$ una sucesion <code>convergente</code> $\Longrightarrow$ es <code>acotada</code>.</p>
+<h4 id="teorema-1">Teorema
+</h4><p>Si $\Set{a_n}_{n\in\N}\medspace$ es <code>monotona</code> y <code>acotada</code> $\Longrightarrow$ la sucesion $\thinspace\textcolor{lightgreen}{converge}$.</p>
+<h4 id="observaciones">Observaciones
+</h4><ol>
+<li>$\thinspace$ Sea $\thinspace F\negthinspace :I\sub\R\to\R\thinspace/\lim\limits_{x\medspace\to \scriptsize + \infin}F(x)=L\quad\land\quad a_n=F(n)\quad n\in\N\quad\Longrightarrow\quad\thinspace\colorbox{grey}{
+$\lim\limits_{n\medspace\to \scriptsize + \infin}a_n=L$
+}$</li>
+</ol>
+<blockquote>
+<p>A esto se lo llama $\thinspace\textcolor{lightblue}{paso\medspace a\medspace variable\medspace real}$.</p></blockquote>
+<ol start="2">
+<li>$\thinspace$ Sea $\Set{a_n}_{n\in\N}\medspace$ <code>acotada</code> $\thinspace\land$ $\Set{b_n}_{n\in\N}\medspace/\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0\quad\Longrightarrow\quad\thinspace\colorbox{grey}{
+$a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$
+}$</li>
+</ol>
+<blockquote>
+<p>A esto se lo llama $\thinspace\textcolor{lightblue}{cero\medspace por\medspace acotada}$.</p></blockquote>
+<ol start="3">
+<li>
+<p>$\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\quad\Longrightarrow\quad |a_n|\xrightarrow[n\medspace\to\scriptsize +\infin]{}|a|$</p>
+</li>
+<li>
+<p>$\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0\quad\xLeftrightarrow \quad\quad |a_n|\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$</p>
+</li>
+<li>
+<p>$\thinspace$ Sean $\Set{a_n}_{n\in\N}\medspace\land\medspace\Set{b_n}_{n\in\N}\thinspace/\thinspace a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\medspace\land\medspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}b\medspace\medspace\land\medspace\alpha,\thinspace\beta\in\R$</p>
+<ul>
+<li>$\alpha\thinspace .\thinspace a_n + \beta\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}\alpha\thinspace .\thinspace a+\beta\thinspace .\thinspace b$</li>
+<li>$a_n\thinspace .\thinspace b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}a\thinspace .\thinspace b$</li>
+<li>Si $b\ne 0\thinspace,\quad\frac{a_n}{b_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}\frac{a}{b}$</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>$\textcolor{lightblue}{Linealidad}$.</p></blockquote>
+<h3 id="criterios-de-convergencia">Criterios de convergencia
+</h3><h4 id="teorema-2">Teorema
+</h4><p>Si $\quad a_n\le b_n\quad\forall\thinspace n\ge n_0\quad (n_0\in\N)\quad\land\quad a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$</p>
+<p>$\Longrightarrow b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$</p>
+<h4 id="teorema-sandwich">Teorema (Sandwich)
+</h4><p>Sean $\Set{a_n}_{n\in\N}\medspace$, $\medspace\Set{b_n}_{n\in\N}\medspace$ y $\medspace\Set{c_n}_{n\in\N}\thinspace/\medspace b_n\le a_n\le c_n\quad\forall\thinspace n\ge n_0\quad (n_0\in\N)$</p>
+<p>Si $\quad b_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L\medspace$ y $\medspace c_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$</p>
+<p>$\Longrightarrow \colorbox{grey}{
+$a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+}$</p>
+<h4 id="teorema-criterio-de-cauchy">Teorema (Criterio de Cauchy)
+</h4><p>Si $\Set{a_n}_{n\in\N}\medspace/\medspace a_n&gt;0\quad\land\quad\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$</p>
+<ul>
+<li>Si $\medspace L&lt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$</li>
+<li>Si $\medspace L&gt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$</li>
+<li>Si $\medspace L=1\thinspace$ el criterio no informa.</li>
+</ul>
+<h4 id="teorema-criterio-de-dalembert">Teorema (Criterio de D&rsquo;Alembert)
+</h4><p>Si $\Set{a_n}_{n\in\N}\medspace/\medspace a_n&gt;0\quad\land\quad\frac{a_{n+1}}{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$</p>
+<ul>
+<li>Si $\medspace L&lt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}0$</li>
+<li>Si $\medspace L&gt;1\thinspace\Longrightarrow a_n\xrightarrow[n\medspace\to\scriptsize +\infin]{}+\infin$</li>
+<li>Si $\medspace L=1\thinspace$ el criterio no informa.</li>
+</ul>
+<h4 id="teorema-criterio-vinculante">Teorema (Criterio vinculante)
+</h4><p>Si $\medspace a_n&gt;0\quad\land\quad\frac{a_{n+1}}{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$</p>
+<p>$\Longrightarrow \colorbox{grey}{
+$\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
+}
+\quad(L\in\R\quad o\quad L=+\infin)$</p>
+<h3 id="subsucesiones">Subsucesiones
+</h3><h4 id="definiciones">Definiciones
+</h4><p>Sea $\Set{a_n}_{n\in\N}\medspace/\medspace F:\N\to\R\thinspace,\quad F(n)=a_n\quad\land\quad$ Sea $\medspace G:\N\to\N\medspace$ <code>estrictamente creciente</code></p>
+<p>$\Longrightarrow$</p>
 
 </section>
 
@@ -348,41 +474,6 @@
     
 
     
-
-<aside class="related-content--wrapper">
-    <h2 class="section-title">Related content</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/post/seriesdepotencias/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Series de potencias - Análisis Matemático II</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/sucesiones/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Sucesiones - Análisis Matemático II</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
 
      
     

@@ -6,6 +6,7 @@ math = "true"
 tags = [
     "math"
 ]
+password = "1234" #Seguridad 10/10 
 +++
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
@@ -45,3 +46,7 @@ Block math:
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$
+
+{{< video src="../../media/eda01.MP4" controls="yes" >}}
+
+> hola como estas

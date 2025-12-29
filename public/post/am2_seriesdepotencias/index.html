@@ -2,16 +2,16 @@
 <html lang="en-us" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Notas de series de potencias">
-<title>Esto es una prueba</title>
+<title>Análisis Matemático II - Series de potencias</title>
 
-<link rel='canonical' href='http://localhost:1313/post/test/'>
+<link rel='canonical' href='http://localhost:1313/post/am2_seriesdepotencias/'>
 
-<link rel="stylesheet" href="/scss/style.min.cfa5b1b0e78d61c00a14173992a1f3fa3b5c1b9fa34d023de959af564e7b19dd.css"><meta property='og:title' content="Esto es una prueba">
+<link rel="stylesheet" href="/scss/style.min.cfa5b1b0e78d61c00a14173992a1f3fa3b5c1b9fa34d023de959af564e7b19dd.css"><meta property='og:title' content="Análisis Matemático II - Series de potencias">
 <meta property='og:description' content="Notas de series de potencias">
-<meta property='og:url' content='http://localhost:1313/post/test/'>
+<meta property='og:url' content='http://localhost:1313/post/am2_seriesdepotencias/'>
 <meta property='og:site_name' content='Kipp´s Notes'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Análisis Matemático II' /><meta property='article:published_time' content='2025-08-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-19T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="Esto es una prueba">
+<meta name="twitter:title" content="Análisis Matemático II - Series de potencias">
 <meta name="twitter:description" content="Notas de series de potencias">
     </head>
     <body class="
@@ -211,7 +211,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/test/">Esto es una prueba</a>
+            <a href="/post/am2_seriesdepotencias/">Análisis Matemático II - Series de potencias</a>
         </h2>
     
         
@@ -252,7 +252,7 @@
 
 
 
-                Lucas
+                Marcos Strauss
             </div>
         
 
@@ -283,7 +283,50 @@
     
     
     
-<p>Hola como andas??</p>
+<h3 id="series-funcionales-series-de-potencias">Series funcionales: Series de potencias
+</h3><h4 id="definicion">Definicion
+</h4><p>Una <code>serie funcional de potencias</code> es la que puede escribirse de la forma:</p>
+<p>$\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n$</p>
+<p>Siendo $\Set{a_n}_{n\in\N}\medspace$ una <code>sucesion de numeros reales</code> y $\thinspace x_0\in\R\thinspace$.</p>
+<blockquote>
+<p>Observamos que en $x=x_0\medspace$ $\textcolor{lightgreen}{converge\medspace siempre}$..</p></blockquote>
+<h4 id="teorema">Teorema
+</h4><p>Sea $\medspace\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n\quad\land\quad R=sup\thinspace\set{r\in\R\ge 0: la\medspace serie\medspace converge\medspace\forall x\in\R\medspace /|x-x_0|&lt;r}$</p>
+<blockquote>
+<p>$R\thinspace$ puede ser infinito y se llama <code>radio de convergencia</code>.</p></blockquote>
+<ol>
+<li>$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&lt;R\Longrightarrow\medspace$ la serie <code>converge absolutamente</code>.</li>
+<li>$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&gt;R\Longrightarrow\medspace$ la serie <code>diverge</code>.</li>
+<li>$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|=R\Longrightarrow\medspace$ no sabemos que pasa con la serie.</li>
+</ol>
+<blockquote>
+<ul>
+<li>Si solo <code>converge absolutamente</code> en $\medspace x=x_0\iff R=0$</li>
+<li>Si  <code>converge absolutamente</code> $\medspace\forall x\in\R\iff R=+\infin$</li>
+</ul></blockquote>
+<blockquote>
+<ul>
+<li>Si la serie <code>converge absolutamente</code> $\Longrightarrow$ la serie <code>converge</code></li>
+<li>Si la serie <code>diverge</code> $\Longrightarrow$ la serie <code>no converge absolutamente</code></li>
+</ul></blockquote>
+<h3 id="teorema-calculo-del-radio">Teorema (Calculo del radio)
+</h3><p>Sea $\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n$, el <code>radio</code> se puede calcular como:</p>
+<ol>
+<li>
+<p>$R = \begin{cases}
+0 &amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\frac{|a_{n+1}|}{|a_n|} = \infin \\
+\infin &amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\frac{|a_{n+1}|}{|a_n|} = 0 \\
+\frac{1}{L} &amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\frac{|a_{n+1}|}{|a_n|} = L
+\end{cases}$</p>
+</li>
+<li>
+<p>$R = \begin{cases}
+0 &amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\sqrt[n]{|a_n|} = \infin \\
+\infin &amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\sqrt[n]{|a_n|} = 0 \\
+\frac{1}{L} &amp;\text{si } \lim\limits_{n\medspace\to \scriptsize + \infin}\sqrt[n]{|a_n|} = L
+\end{cases}$</p>
+</li>
+</ol>
 
 </section>
 
@@ -356,25 +399,12 @@
             
                 
 <article class="">
-    <a href="/post/seriesdepotencias/">
+    <a href="/post/am2_sucesiones/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Series de potencias - Análisis Matemático II</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/post/sucesiones/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Sucesiones - Análisis Matemático II</h2>
+            <h2 class="article-title">Análisis Matemático II - Sucesiones</h2>
         </div>
     </a>
 </article>

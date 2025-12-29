@@ -1,4 +1,6 @@
 <article class="{{ if .Params.image }}has-image {{ end }}main-article">
+    <div id="content-container" {{- if .Params.password -}}style="display: none;"{{- end -}}>
+
     {{ partial "article/components/header" . }}
 
     {{ partial "article/components/content" . }}
@@ -9,3 +11,19 @@
         {{ partialCached "article/components/math.html" . }}
     {{ end }}
 </article>
+
+<script>
+        window.onload = function() {
+            var contentContainer = document.getElementById("content-container");
+            if ("{{ .Params.password }}" !== "") {
+                var password = prompt("Enter password:");
+                if (password === "{{ .Params.password }}") {
+                    contentContainer.style.display = "block";
+                } else {
+                    alert("Incorrect password");
+                }
+            } else {
+                contentContainer.style.display = "block";
+            }
+        };
+</script>

@@ -202,6 +202,8 @@
 
             <main class="main full-width">
     <article class="main-article">
+    <div id="content-container">
+
     <header class="article-header">
 
     <div class="article-details">
@@ -291,7 +293,7 @@
 <h4 id="teorema">Teorema
 </h4><p>Sea $\medspace\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n\quad\land\quad R=sup\thinspace\set{r\in\R\ge 0: la\medspace serie\medspace converge\medspace\forall x\in\R\medspace /|x-x_0|&lt;r}$</p>
 <blockquote>
-<p>$R$ puede ser infinito y se llama <code>radio de convergencia</code>.</p></blockquote>
+<p>$R\thinspace$ puede ser infinito y se llama <code>radio de convergencia</code>.</p></blockquote>
 <ol>
 <li>$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&lt;R\Longrightarrow\medspace$ la serie <code>converge absolutamente</code>.</li>
 <li>$\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|&gt;R\Longrightarrow\medspace$ la serie <code>diverge</code>.</li>
@@ -369,6 +371,22 @@
 
     
 </article>
+
+<script>
+        window.onload = function() {
+            var contentContainer = document.getElementById("content-container");
+            if ("" !== "") {
+                var password = prompt("Enter password:");
+                if (password === "") {
+                    contentContainer.style.display = "block";
+                } else {
+                    alert("Incorrect password");
+                }
+            } else {
+                contentContainer.style.display = "block";
+            }
+        };
+</script>
 
     
 

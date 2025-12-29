@@ -1,6 +1,6 @@
 +++
 author = "Marcos Strauss"
-title = "Series de potencias - Análisis Matemático II"
+title = "Análisis Matemático II - Series de potencias"
 date = "2025-08-19"
 description = "Notas de series de potencias"
 math = "true"
@@ -31,7 +31,7 @@ Siendo $\Set{a_n}_{n\in\N}\medspace$ una `sucesion de numeros reales` y $\thinsp
 #### Teorema
 Sea $\medspace\displaystyle\sum_{n=0}^{+\infin}a_n(x-x_0)^n\quad\land\quad R=sup\thinspace\set{r\in\R\ge 0: la\medspace serie\medspace converge\medspace\forall x\in\R\medspace /|x-x_0|<r}$
 
-> $R$ puede ser infinito y se llama `radio de convergencia`.
+> $R\thinspace$ puede ser infinito y se llama `radio de convergencia`.
 1. $\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|<R\Longrightarrow\medspace$ la serie `converge absolutamente`.
 2. $\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|>R\Longrightarrow\medspace$ la serie `diverge`.
 3. $\medspace$ Si $\thinspace$ $x\in\R\medspace /\medspace|x-x_0|=R\Longrightarrow\medspace$ no sabemos que pasa con la serie.

@@ -202,6 +202,8 @@
 
             <main class="main full-width">
     <article class="main-article">
+    <div id="content-container">
+
     <header class="article-header">
 
     <div class="article-details">
@@ -312,6 +314,22 @@
 
     
 </article>
+
+<script>
+        window.onload = function() {
+            var contentContainer = document.getElementById("content-container");
+            if ("" !== "") {
+                var password = prompt("Enter password:");
+                if (password === "") {
+                    contentContainer.style.display = "block";
+                } else {
+                    alert("Incorrect password");
+                }
+            } else {
+                contentContainer.style.display = "block";
+            }
+        };
+</script>
 
     
 

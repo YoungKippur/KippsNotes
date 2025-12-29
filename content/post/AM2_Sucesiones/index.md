@@ -1,6 +1,6 @@
 +++
 author = "Marcos Strauss"
-title = "Sucesiones - Análisis Matemático II"
+title = "Análisis Matemático II - Sucesiones"
 date = "2025-08-13"
 description = "Notas de sucesiones"
 math = "true"

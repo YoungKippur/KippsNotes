@@ -202,6 +202,8 @@
 
             <main class="main full-width">
     <article class="main-article">
+    <div id="content-container"style="display: none;">
+
     <header class="article-header">
 
     <div class="article-details">
@@ -293,6 +295,22 @@
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$</p>
+<div class="video-wrapper">
+    <video
+    controls
+    src="../../media/eda01.MP4"
+    
+    
+    >
+        <p>
+            Your browser doesn't support HTML5 video. Here is a
+            <a href="../../media/eda01.MP4">link to the video</a> instead.
+        </p>
+    </video>
+</div>
+
+<blockquote>
+<p>hola como estas</p></blockquote>
 </section>
 
 
@@ -336,6 +354,22 @@ $$</p>
 
     
 </article>
+
+<script>
+        window.onload = function() {
+            var contentContainer = document.getElementById("content-container");
+            if ("1234" !== "") {
+                var password = prompt("Enter password:");
+                if (password === "1234") {
+                    contentContainer.style.display = "block";
+                } else {
+                    alert("Incorrect password");
+                }
+            } else {
+                contentContainer.style.display = "block";
+            }
+        };
+</script>
 
     
 
