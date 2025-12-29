@@ -46,7 +46,3 @@ Block math:
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$
-
-{{< video src="../../media/eda01.MP4" controls="yes" >}}
-
-> hola como estas

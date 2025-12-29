@@ -13,6 +13,91 @@
         
         <guid>http://localhost:1313/post/eda/</guid>
         <description>
+&lt;h3 id=&#34;clases-grabadas-2c-2024&#34;&gt;Clases grabadas (2C 2024)
+&lt;/h3&gt;&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34; width=&#34;600&#34;   &gt;
+&lt;source src=&#34;../../media/EDA01.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34; width=&#34;600&#34;   &gt;
+&lt;source src=&#34;../../media/EDA02.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA03.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA04.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA05.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA06.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA07.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA08.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA09.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA010.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA011.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA012.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA013.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/EDA014.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
+
 </description>
         </item>
         <item>
@@ -235,21 +320,13 @@ $\sqrt[n]{a_n}\xrightarrow[n\medspace\to\scriptsize +\infin]{}L$
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;video
-    controls
-    src=&#34;../../media/eda01.MP4&#34;
-    
-    
-    &gt;
-        &lt;p&gt;
-            Your browser doesn&#39;t support HTML5 video. Here is a
-            &lt;a href=&#34;../../media/eda01.MP4&#34;&gt;link to the video&lt;/a&gt; instead.
-        &lt;/p&gt;
-    &lt;/video&gt;
-&lt;/div&gt;
+&lt;h2 id=&#34;hahahugoshortcode6s1hbhb&#34;&gt;&lt;figure class=&#34;video&#34;&gt;
+&lt;video controls preload=&#34;metadata&#34;    &gt;
+&lt;source src=&#34;../../media/eda01.MP4&#34; &gt;
+&lt;/video&gt;
+&lt;/figure&gt;
 
-&lt;blockquote&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;hola como estas&lt;/p&gt;&lt;/blockquote&gt;</description>
         </item>
         
