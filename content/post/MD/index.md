@@ -1,11 +1,11 @@
 +++
 author = "Marcos Strauss"
-title = "EDA - Contenido"
+title = "Matemática Discreta - Contenido"
 date = "2025-12-29"
-description = "Todo el contenido de la catedra de Algoritmos y Estructuras de Datos"
+description = "Todo el contenido de la catedra de Matemática Discreta"
 math = "true"
 tags = [
-    "EDA"
+    "Matemática Discreta"
 ]
 password = "IEEE" # No deberia estar viendo por aca... (-_-) 
 +++
@@ -21,32 +21,26 @@ password = "IEEE" # No deberia estar viendo por aca... (-_-)
 
 ### Clases grabadas (2C 2024)
 
-{{< video src="../../media/EDA01.MP4" width="600">}}
+{{< video src="../../media/MD01.MP4" width="600">}}
 
-{{< video src="../../media/EDA02.MP4" width="600">}}
+{{< video src="../../media/MD02.MP4" width="600">}}
 
-{{< video src="../../media/EDA03.MP4" width="600">}}
+{{< video src="../../media/MD03.MP4" width="600">}}
 
-{{< video src="../../media/EDA04.MP4" width="600">}}
+{{< video src="../../media/MD04.MP4" width="600">}}
 
-{{< video src="../../media/EDA05.MP4" width="600">}}
+{{< video src="../../media/MD05.MP4" width="600">}}
 
-{{< video src="../../media/EDA06.MP4" width="600">}}
+{{< video src="../../media/MD06.MP4" width="600">}}
 
-{{< video src="../../media/EDA07.MP4" width="600">}}
+{{< video src="../../media/MD07.MP4" width="600">}}
 
-{{< video src="../../media/EDA08.MP4" width="600">}}
+{{< video src="../../media/MD08.MP4" width="600">}}
 
-{{< video src="../../media/EDA09.MP4" width="600">}}
+{{< video src="../../media/MD09.MP4" width="600">}}
 
-{{< video src="../../media/EDA10.MP4" width="600">}}
+{{< video src="../../media/MD10.MP4" width="600">}}
 
-{{< video src="../../media/EDA11.MP4" width="600">}}
-
-{{< video src="../../media/EDA12.MP4" width="600">}}
-
-{{< video src="../../media/EDA13.MP4" width="600">}}
-
-{{< video src="../../media/EDA14.MP4" width="600">}}
+{{< video src="../../media/MD11.MP4" width="600">}}
 
 ### Contenido teorico (2c 2024)
