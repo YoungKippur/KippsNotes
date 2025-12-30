@@ -21,7 +21,7 @@ password = "IEEE" # No deberia estar viendo por aca... (-_-)
 
 ### Clases grabadas (2C 2024)
 
-{{< video src="/var/www/KippsNotes/public/media/EDA01.MP4" width="600">}}
+{{< video src="/var/www/KippsNotes/public/media/EDA01.MP4" width="500">}}
 
 {{< video src="../../media/EDA02.MP4" width="600">}}
 
