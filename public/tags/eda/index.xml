@@ -22,7 +22,7 @@
 
 &lt;figure class=&#34;video&#34;&gt;
 &lt;video controls preload=&#34;metadata&#34; width=&#34;600&#34;   &gt;
-&lt;source src=&#34;../../media/EDA02.MP4&#34; &gt;
+&lt;source src=&#34;media/EDA02.MP4&#34; &gt;
 &lt;/video&gt;
 &lt;/figure&gt;
 
