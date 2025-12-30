@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Análisis Matemático II on Kipp´s Notes</title>
-        <link>http://localhost:1313/tags/an%C3%A1lisis-matem%C3%A1tico-ii/</link>
+        <link>https://youngkippur.com/tags/an%C3%A1lisis-matem%C3%A1tico-ii/</link>
         <description>Recent content in Análisis Matemático II on Kipp´s Notes</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/an%C3%A1lisis-matem%C3%A1tico-ii/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://youngkippur.com/tags/an%C3%A1lisis-matem%C3%A1tico-ii/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Análisis Matemático II - Series de potencias</title>
-        <link>http://localhost:1313/post/am2_seriesdepotencias/</link>
+        <link>https://youngkippur.com/post/am2_seriesdepotencias/</link>
         <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/am2_seriesdepotencias/</guid>
+        <guid>https://youngkippur.com/post/am2_seriesdepotencias/</guid>
         <description>
 &lt;h3 id=&#34;series-funcionales-series-de-potencias&#34;&gt;Series funcionales: Series de potencias
 &lt;/h3&gt;&lt;h4 id=&#34;definicion&#34;&gt;Definicion
@@ -61,10 +61,10 @@
         </item>
         <item>
         <title>Análisis Matemático II - Sucesiones</title>
-        <link>http://localhost:1313/post/am2_sucesiones/</link>
+        <link>https://youngkippur.com/post/am2_sucesiones/</link>
         <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/am2_sucesiones/</guid>
+        <guid>https://youngkippur.com/post/am2_sucesiones/</guid>
         <description>
 &lt;h4 id=&#34;definicion-sucesiones&#34;&gt;Definicion (Sucesiones)
 &lt;/h4&gt;&lt;p&gt;Una sucesion de elementos en $\Alpha$ es una funcion $F \negthinspace : \N\to\R\quad (\Alpha\in\R)$.&lt;/p&gt;
